@@ -1,0 +1,19 @@
+html {
+    font-size: 2vmin;
+}
+
+.outer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    transform: rotate(0);
+}
+
+.inner-grid-one {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, 0.2fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    transform: rotate(10deg);
+}

@@ -1,0 +1,155 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.header-wrapper {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto 10vw;
+    grid-template-rows: 0.4fr 0.5fr auto 0.2fr auto auto auto 0.3fr auto 0.7fr 0.6fr;
+    transform: rotate(-35deg)
+}
+
+.black-box-1 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 9;
+    background-color: black;
+    z-index: -1;
+}
+
+.black-box-2 {
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    background-color: black;
+    z-index: -1;
+}
+
+.black-box-3 {
+    grid-column: 1 / 4;
+    grid-row: 11 / 12;
+    background-color: black;
+    z-index: -1;
+}
+
+.borderline-1 {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    border-bottom: 16px solid white;
+    z-index: -1;
+}
+
+.borderline-2 {
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+    min-width: 15vw;
+    border-top: 14px solid black;
+    z-index: -1;
+}
+
+.borderline-3 {
+    grid-column: 4 / 6;
+    grid-row: 11 / 12;
+    border-top: 14px solid black;
+    z-index: -1;
+}
+
+.borderline-4 {
+    grid-column: 4 / 5;
+    grid-row: 8 / 12;
+    border-left: 14px solid black;
+    z-index: -1;
+}
+
+.borderline-5 {
+    grid-column: 5 / 6;
+    grid-row: 9 / 11;
+    border-left: 14px solid black;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 9.2vh;
+    margin: 0;
+    font-size: 800%;
+}
+
+.first-name {
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+    align-self: flex-end;
+    justify-self: flex-end;
+    color: black;
+}
+
+.second-name {
+    grid-column: 4 / 6;
+    grid-row: 7 / 8;
+    align-self: flex-start;
+}
+
+h2 {
+    grid-column: 4 / 6;
+    grid-row: 5 / 6;
+    margin: 0;
+    font-size: 500%;
+}
+
+h3 {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 300%;
+}
+
+h4 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 200%;
+}
+
+h5 {
+    grid-column: 4 / 6;
+    grid-row: 6 / 7;
+    margin: 0;
+    align-self: flex-start;
+    font-size: 200%;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.info-div {
+    grid-column: 2 / 4;
+    grid-row: 8 / 10;
+    margin-right: 5px;
+    color: black;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.big-letter-1 {
+    font-size: 3000%;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    justify-self: flex-end;
+    margin: 0;
+    color: #ED4032;
+    font-weight: 900;
+    line-height: 80%;
+}
+
+.big-letter-2 {
+    font-size: 3000%;
+    grid-column: 4 / 5;
+    grid-row: 8 / 10;
+    justify-self: flex-start;
+    margin: 0;
+    color: #ED4032;
+    font-weight: 900;
+    line-height: 80%;
+}
