@@ -1,0 +1,42 @@
+.background {
+    background-image: url("parchment.bmp");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.circle {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.red-one {
+    grid-column: auto;
+    grid-row: auto;
+    height: 50vmin;
+    width: 50vmin;
+    background: rgba(217, 36, 12, 0.795);
+}
+
+.black-one {
+    grid-column: auto;
+    grid-row: auto;
+    height: 8vmin;
+    width: 8vmin;
+}
+
+.black-two {
+    grid-column: auto;
+    grid-row: auto;
+    height: 8vmin;
+    width: 8vmin;
+}
