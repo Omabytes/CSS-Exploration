@@ -1,3 +1,7 @@
 html {
   background: #57585f;
 }
+.bookshelf {
+  position: relative;
+  display: grid;
+}
