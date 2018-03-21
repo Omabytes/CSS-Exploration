@@ -28,6 +28,7 @@ html {
 }
 .expanded {
   font-size: 200%;
+  background-color: #008080;
 }
 .illustrations {
   max-width: 100%;
